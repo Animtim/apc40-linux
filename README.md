@@ -16,21 +16,21 @@ midi bindings to connect an APC40 controller to ardour and sequencer64
 
 -Copy sequencer64.rc to ~/.config/sequencer64/
 
--The 4 first lines of clip launch: launch respective clips in current set
+-The 4 first lines of "Clip launch": launch respective clips in current set
 
--The 5th line of clip launch trigger mute groups with patterns from 01 up to 07 on the respective 7 first buttons
+-The 5th line of "Clip launch" trigger mute groups with patterns from 01 up to 07 on the respective 7 first buttons (mute groups from keys shift + 1 to 7)
 
--4 first buttons of scene launch columns launch full-line mute groups (keys * I K < , left vertical raw)
+-The 4 first buttons of "Scene launch" column launch full-line mute groups (from keys shift + 8 i k ;)
 
--The stop buttons stop the respective columns
+-The "Clip stop" buttons stop the respective columns
 
--Bank Select up for next set, down for previous set
+-"Bank Select" up for next set, down for previous set
 
 -"Stop all clips" to activate Replace mode
 
 -"Shift" to activate Keep Queue mode. (Note: There's a bug when using "off" control on queue mode, which makes mute-group shortcuts broken, so people should use Ctrl_right on keyboard to disable keep queue.)
 
--Nudge- to reduce bpm, Nudge+ to increase it
+-"Nudge-" to reduce bpm, "Nudge+" to increase it
 
 Side note:
 -Replace doesn't work with queue
