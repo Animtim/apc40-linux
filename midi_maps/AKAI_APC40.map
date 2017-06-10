@@ -3,7 +3,7 @@
 <!-- 2017-11-04 Timothée Giet (animtim@gmail.com)            -->
 
 <!-- the faders are not motorized, but setting "yes" makes fader take control directly even if value is different-->
-<DeviceInfo bank-size="8" motorized="no"/>
+<DeviceInfo bank-size="8" motorized="yes" threshold="127"/>
 
 <Binding channel="1" ctl="07"  uri="/route/gain B1"/>
 <Binding channel="2" ctl="07"  uri="/route/gain B2"/>
