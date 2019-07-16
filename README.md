@@ -38,6 +38,10 @@ midi bindings to connect an APC40 controller to ardour and sequencer64
 
 -"Nudge-" reduces bpm, "Nudge+" increases it
 
+-The midi output is functional since July 2019, building seq64 from the git branch midi_control. Clip launch buttons are yellow when not playing, green when playing, blinking-green when Queued and turned off when empty.
+
+-For the midi output to be able to control the controller leds, the input must use the Note-Off events from releasing the clip launch buttons (else if using the Note-On events from pressing the button, leds always turn off at button release anyway).
+
 Side notes:
 
 -You can combine Snapshot and Replace (first press snapshot, then replace, then the new patterns, then restore)
